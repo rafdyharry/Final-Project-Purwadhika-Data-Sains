@@ -1,0 +1,29 @@
+{% extends 'index.html' %} {% block content %}
+<center>
+    <div class="p1">
+        <b>Rate car Daily Prediction</b>
+    </div>
+    <br>
+    <div class="container">
+        <b>Rating: </b> {{rating}}<br>
+        <b>Vehicle Model: </b> {{vehiclemodel}}<br>
+        <b>Vehicle Type: </b> {{Vehicletype}}<br>
+        <b>Vehicle Make: </b> {{vehiclemake}}<br>
+        <b>Vehicle Year: </b> {{Vehicleyear}}<br>
+        <b>Location State: </b> {{locationstate}}<br>
+        <b>Rate Daily : $</b> {{tip_pred}}<br>
+    </div>
+    <hr>
+    <a href="/pred_lr" target="_self">
+        <button style="background-color: rgb(255, 90, 95); color: whitesmoke" class="btn btn-light">
+            Predict Again
+        </button>
+    </a>
+    <a href="/" target="_self">
+        <button style="background-color: rgb(255, 90, 95); color: whitesmoke" class="btn btn-light">
+            Back to Home
+        </button>
+    </a>
+</center>
+
+{% endblock %}
