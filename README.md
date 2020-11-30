@@ -91,9 +91,9 @@ now i make a simple dashboard for deploying my machine learning.
 4. Input New Data
 ![null info](./gambar/8.png)
 5. Predict
-![null info](./gambar/10.png)
+![null info](./gambar/9.png)
 6. predict result
-![null info](./gambar/11.png)
+![null info](./gambar/10.png)
 # 4 Conclusion
 
 The conclusions drawn from my project are:
